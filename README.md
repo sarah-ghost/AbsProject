@@ -2,7 +2,7 @@
 for Unreal Engine 4.24 PhysXVehicles
 based on VehicleAdvanced Template C++
 
-[Lil' Documentation](https://github.com/sarah-ghost/AbsProject/blob/master/AbsDoc.docx)
+[Lil' Documentation](https://github.com/sarah-ghost/AbsProject/blob/master/AbsDoc.docx?raw=true)
 
 > ABS implemented as a new vehicle movement component which is inherited from this template movement component. 
 
