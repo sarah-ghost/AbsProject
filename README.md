@@ -14,7 +14,7 @@ based on VehicleAdvanced Template C++
 TODO
 
     Perfect wheel rotation speed without sliping (rad/s)
-			float omega = (((Speed * 0.28f) / Wheels[0]->ShapeRadius) * 2 * PI);
+			float omega = (((Speed * 0.28f) / Wheels[0]->ShapeRadius));
 
 		Calculated slip from momental wheel rotation speed (NVIDIA says it's in rad/s!)
 			float calcSlip =  1 - (omega / wheelSpeed);
