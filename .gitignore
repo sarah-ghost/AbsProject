@@ -7,8 +7,6 @@
 *.o
 *.obj
 
-# ALL ASSETS
-*.uassets
 
 # Precompiled Headers
 *.gch
