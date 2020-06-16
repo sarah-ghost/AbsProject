@@ -30,7 +30,7 @@ void UAbsVehicleMovement::UpdateBrakes()
 	// TODO ---------------------------------------------------------------------
 
     /** Perfect wheel rotation speed without sliping (rad/s)
-			float omega = (((Speed * 0.28f) / Wheels[0]->ShapeRadius) * 2 * PI);
+			float omega = ((Speed * 0.28f) / Wheels[0]->ShapeRadius);
 
 		Calculated slip from momental wheel rotation speed 
 			float calcSlip =  1 - (omega / wheelSpeed);
